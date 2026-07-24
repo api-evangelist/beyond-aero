@@ -1,8 +1,15 @@
 aid: beyond-aero
 name: Beyond Aero
-description: 'Beyond Aero is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Beyond Aero is a French aerospace company building the world''s first
+  electric business aircraft powered by hydrogen propulsion. Its flagship aircraft,
+  "One", is designed to fly more than 800 nautical miles with zero in-flight carbon
+  emissions, targeting the light business-jet market. The company pairs rapid prototyping
+  and iterative aircraft design with in-house engineering tools such as HADES (Hydrogen
+  Aircraft Data Exploration Software). Backed by Initialized Capital, Beyond Aero is
+  a frontier-tech hardware startup rather than an API provider; it publishes no public
+  developer API, SDKs, or machine-readable API surface at this time. This profile was
+  surfaced from a VC portfolio and enriched with company identity and web/domain-security
+  signals.'
 url: https://raw.githubusercontent.com/api-evangelist/beyond-aero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.beyond-aero.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Frontier Tech
+- Aviation
+- Aerospace
+- Hydrogen
+- Electric Aircraft
+- Sustainable Aviation
+- Business Aviation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/beyond-aero-domain-security.yml
 - type: Website
   url: https://www.beyond-aero.com/
+- type: PrivacyPolicy
+  url: https://www.beyond-aero.com/privacy-policy
+- type: TermsOfService
+  url: https://www.beyond-aero.com/legal-mentions
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
